@@ -2,7 +2,7 @@ repeat wait() until game:IsLoaded() wait()
     game:GetService("Players").LocalPlayer.Idled:connect(function()
     game:GetService("VirtualUser"):ClickButton2(Vector2.new());
 end);
-local Library = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Pham208/scriptRB/main/Library.lua", true))();
+local Library = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/fnsurvival/ami/main/library.lua", true))();
 pcall(function()
     for i, v in pairs(getconnections(game:GetService("ScriptContext").Error)) do
         v:Disable();
