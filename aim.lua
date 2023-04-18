@@ -239,7 +239,7 @@ local function getClosestPlayer()
 end
 
 -- UI CREATING & HANDLING
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/fnsurvival/fnsurvival.github.io/main/secret/nbdkz/ScriptRB/BL%20aim%20source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/fnsurvival/ami/main/source.lua"))()
 
 local Window = Library:CreateWindow("SILENT AIM BY Pham208")
 local GeneralTab = Window:AddTab("General")
